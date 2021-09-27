@@ -40,10 +40,6 @@ const projectsArr   = [
         name:           'dance',
         description:    'Учебное задание. '
     },
-    {
-        name:           'dance',
-        description:    'Учебное задание. '
-    },
 ]
 
 projectsRender();
