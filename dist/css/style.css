@@ -15,7 +15,7 @@ body {
     font-family: "open sans", sans-serif;
     margin: 0;
     
-    background-color: #0c0c0c;
+    background-color: #FFFFFF;
 }
 
 body::-webkit-scrollbar {
@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
 .icon {
     width: 2.6em;
     height: 2.6em;
-    stroke: white;
+    stroke: black;
     fill: transparent;
     stroke-width: 1pt;
     stroke-miterlimit: 10;
@@ -156,8 +156,8 @@ body::-webkit-scrollbar {
 .about .about__descrip {
     font-size: 24px;
     text-align: justify;
-    font-style: italic;
-    color: whitesmoke;
+    font-style: Roboto, sans-serif;
+    color: black;
 }
 
 .myProjects {
@@ -172,14 +172,14 @@ body::-webkit-scrollbar {
 }
 
 .myProject .myProject__title {
-    font-family: inconsolata, monospace;
-    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
     padding-bottom: 10px;
-    color: whitesmoke;
+    color: black;
 }
 .myProject .myProject__descrip {
     font-size: 17px;
-    color: whitesmoke;
+    color: black;
     text-align: justify;
 }
 
@@ -209,8 +209,8 @@ body::-webkit-scrollbar {
 
     font-size: 24px;
     text-align: justify;
-    font-style: italic;
-    color: whitesmoke;
+    font-style: Roboto, sans-serif;
+    color: black;
 }
 
 .contacts .contacts__descrip a {

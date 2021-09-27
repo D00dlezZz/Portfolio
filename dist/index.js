@@ -17,32 +17,12 @@ const animArr = [
 let previousScreen  = 0;
 const projectsArr   = [
     {
-        name:           'Video Conference',
-        description:    'Тестовое задание Blackwall. '
+        name:           'Go-Mobile',
+        description:    'Тестовое задание от  Go-Mobile . '
     },
     {
-        name:           'Yamaguchi',
-        description:    'Тестовое задание Yamaguchi.'
-    },
-    {
-        name:           'OnPoint',
-        description:    'Тестовое задание — eDetailing под iPad.<br/>Перемещение между слайдами происходит при помощи стрелок на клавиатуре, либо свайпов на планшетах.'
-    },
-    {
-        name:           'MyPortfolio',
-        description:    'Немного рекурсии :)'
-    },
-    {
-        name:           'TestPayment',
-        description:    'Тестовое задание — Форма оформления заказа.'
-    },
-    {
-        name:           'TestCalculator',
-        description:    'Тестовое задание — Калькулятор для расчета стоимости натяжных потолков с установкой.'
-    },
-    {
-        name:           'Uber',
-        description:    'Мой первый проект'
+        name:           'QSOFT',
+        description:    'Тестовое задание от  QSOFT . '
     },
 ]
 
@@ -54,7 +34,7 @@ function projectsRender() {
         <li class="myProject">
             <div class="myProject__title">${projectsArr[i].name}</div>
             <div class="myProject__descrip">${projectsArr[i].description}</div>
-            <a target="_blank" href="https://spawn2301.github.io/${projectsArr[i].name.split(' ').join('')}/" class="myProject__link">Go to Website</a>
+            <a target="_blank" href="https://D00dlezZz.github.io/${projectsArr[i].name.split(' ').join('')}/" class="myProject__link">Go to Website</a>
         </li>
         `;
     }
