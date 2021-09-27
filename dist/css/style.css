@@ -15,7 +15,7 @@ body {
     font-family: "open sans", sans-serif;
     margin: 0;
     
-    background-color: #FFFFFF;
+    background-color: #E5E5E5;
 }
 
 body::-webkit-scrollbar {
@@ -215,7 +215,7 @@ body::-webkit-scrollbar {
 
 .contacts .contacts__descrip a {
     transition: .5s color;
-    color: white;
+    color: black;
 }
 
 .contacts .contacts__descrip a:hover {
