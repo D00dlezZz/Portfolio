@@ -18,11 +18,27 @@ let previousScreen  = 0;
 const projectsArr   = [
     {
         name:           'Go-Mobile',
-        description:    'Тестовое задание от  Go-Mobile . '
+        description:    'Тестовое задание от  Go-Mobile. '
     },
     {
         name:           'QSOFT',
-        description:    'Тестовое задание от  QSOFT . '
+        description:    'Тестовое задание от  QSOFT. '
+    },
+    {
+        name:           'Movie',
+        description:    'Учебное задание. '
+    },
+    {
+        name:           'Piggy-bank',
+        description:    'Учебное задание. '
+    },
+    {
+        name:           'To-Do-List',
+        description:    'Учебное задание. '
+    },
+    {
+        name:           'dance',
+        description:    'Учебное задание. '
     },
 ]
 
