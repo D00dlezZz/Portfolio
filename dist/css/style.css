@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
   
 .menu__item.active::before {
     transform: scale(1);
-    background-color: var(--bgColorItem);
+    background-color: #FF0044;
 }
   
 .icon {
@@ -123,9 +123,14 @@ body::-webkit-scrollbar {
 }
   
 .content {
+    height: 100vh;
     overflow-x: hidden;
-    color: #74ee15;
     padding: 40px 40px 150px 40px;
+    background: url(../img/imgonline-com-ua-Black-White-v7f2p66abq.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .content .title:first-child {
@@ -143,12 +148,10 @@ body::-webkit-scrollbar {
 }
 
 .content .title::before {
-    content: '<';
     display: inline-block;
 }
 
 .content .title::after {
-    content: '>';
     display: inline-block;
 }
 
@@ -156,7 +159,7 @@ body::-webkit-scrollbar {
     font-size: 24px;
     text-align: justify;
     font-style: Roboto, sans-serif;
-    color: black;
+    color: white;
 }
 
 .about img {
@@ -181,9 +184,11 @@ body::-webkit-scrollbar {
 }
 
 .myProject {
-    border: solid #f000ff 2px;
+    /* border: solid black 2px; */
+    border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
+    background-color: #D5D6D1;
 }
 
 .myProject .myProject__title {
@@ -201,7 +206,6 @@ body::-webkit-scrollbar {
 .myProject .myProject__link {
     display: block;
     margin-top: 20px;
-
     font-size: 17px;
     color: #f000ff;
     text-decoration: none;
