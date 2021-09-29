@@ -14,8 +14,7 @@ html *::after {
 body {
     font-family: "open sans", sans-serif;
     margin: 0;
-    
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 body::-webkit-scrollbar {
@@ -158,6 +157,22 @@ body::-webkit-scrollbar {
     text-align: justify;
     font-style: Roboto, sans-serif;
     color: black;
+}
+
+.about img {
+    width: 200px;
+    transition: 1s;
+    margin-right: 50px;
+}  
+
+.about__sertificate {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.scale:hover {
+    transform: scale(1.5);
 }
 
 .myProjects {
