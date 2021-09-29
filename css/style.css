@@ -185,6 +185,7 @@ body::-webkit-scrollbar {
 .myProjects {
     padding: 0;
     list-style-type: none;
+    opacity: 5;
 }
 
 .myProject {
@@ -192,6 +193,7 @@ body::-webkit-scrollbar {
     padding: 20px;
     margin-bottom: 20px;
     background-color: #D5D6D1;
+    opacity: 0.95;
 }
 
 .myProject .myProject__title {
