@@ -165,19 +165,19 @@ body::-webkit-scrollbar {
 
 .about img {
     width: 250px;
-    transition: 1s;
-    margin-right: 50px;
+    transition: 0.5s;
+    padding-right: 30px;
 }  
 
 .about__sertificate {
-    padding-top: 20px;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
 }
 
 .scale:hover {
-    transform: scale(1.5);
-    z-index: 1;
+    transform: scale(2);
+    z-index: 2;
 }
 
 .myProjects {
@@ -213,11 +213,12 @@ body::-webkit-scrollbar {
     text-decoration: none;
     transition: color 1s;
     text-transform: uppercase;
+    color: #FF0044;
 }
 
 .myProject .myProject__link:hover {
     transition: color 1s;
-    color: #FF0044;
+    color: #3598DB;
 }
 
 .myProjects__title {
@@ -287,6 +288,14 @@ body::-webkit-scrollbar {
     .contacts .contacts__descrip {
         text-align: left;
         font-size: 23px;
+    }
+
+    .about img {
+        padding-right: 0;
+    }
+
+    .scale:hover {
+        transform: scale(1.5);
     }
 }
 
