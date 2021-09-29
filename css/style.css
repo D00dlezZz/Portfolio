@@ -285,7 +285,8 @@ body::-webkit-scrollbar {
     }
 
     .contacts .contacts__descrip {
-        font-size: 20px;
+        text-align: left;
+        font-size: 23px;
     }
 }
 
