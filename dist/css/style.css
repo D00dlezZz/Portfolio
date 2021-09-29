@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
     font-size: 32px;
     font-weight: bold;
     color: #FF0044;
-    text-shadow: 0 0 1em black;
+    text-shadow:0 0 6px black;
 }
 
 .content .title::before {
