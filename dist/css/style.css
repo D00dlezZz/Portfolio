@@ -12,7 +12,7 @@ html *::after {
 }
   
 body {
-    font-family: "open sans", sans-serif;
+    font-family: "Rubik";
     margin: 0;
     background-color: #FFFFFF;
 }
@@ -64,7 +64,6 @@ body::-webkit-scrollbar {
     border-radius: 50%;
     position: absolute;
     transform: scale(0);
-    transition: background-color var(--duration), transform var(--duration);
 }
   
 .menu__item.active {
@@ -106,7 +105,6 @@ body::-webkit-scrollbar {
     position: absolute;
     clip-path: url(#menu);
     will-change: transform;
-    background-color: var(--bgColorMenu);
     transition: transform var(--timeOut, var(--duration));
 }
   
@@ -145,6 +143,8 @@ body::-webkit-scrollbar {
 .content .title::after {
     font-size: 32px;
     font-weight: bold;
+    color: #FF0044;
+    text-shadow: 0 0 1em black;
 }
 
 .content .title::before {
@@ -156,14 +156,17 @@ body::-webkit-scrollbar {
 }
 
 .about .about__descrip {
-    font-size: 24px;
-    text-align: justify;
-    font-style: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px; 
+    font-style: Rubik;
     color: white;
+    text-shadow: 0 0 1em black;
 }
 
 .about img {
-    width: 200px;
+    width: 250px;
     transition: 1s;
     margin-right: 50px;
 }  
@@ -176,6 +179,7 @@ body::-webkit-scrollbar {
 
 .scale:hover {
     transform: scale(1.5);
+    z-index: 1;
 }
 
 .myProjects {
@@ -184,7 +188,6 @@ body::-webkit-scrollbar {
 }
 
 .myProject {
-    /* border: solid black 2px; */
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -192,7 +195,7 @@ body::-webkit-scrollbar {
 }
 
 .myProject .myProject__title {
-    font-family: Roboto, sans-serif;
+    font-family: Rubik;
     font-size: 25px;
     padding-bottom: 10px;
     color: black;
@@ -207,7 +210,6 @@ body::-webkit-scrollbar {
     display: block;
     margin-top: 20px;
     font-size: 17px;
-    color: #f000ff;
     text-decoration: none;
     transition: color 1s;
     text-transform: uppercase;
@@ -215,7 +217,7 @@ body::-webkit-scrollbar {
 
 .myProject .myProject__link:hover {
     transition: color 1s;
-    color: #c22085;
+    color: #FF0044;
 }
 
 .myProjects__title {
@@ -225,21 +227,21 @@ body::-webkit-scrollbar {
 
 .contacts .contacts__descrip {
     margin-bottom: 1em;
-
     font-size: 24px;
     text-align: justify;
-    font-style: Roboto, sans-serif;
-    color: black;
+    font-style: Rubik;
+    color: #FFFFFF;
+    text-shadow: 0 0 1em black;
 }
 
 .contacts .contacts__descrip a {
     transition: .5s color;
-    color: black;
+    color: #FFFFFF;
 }
 
 .contacts .contacts__descrip a:hover {
     transition: .5s color;
-    color: #0C5FE8;
+    color: #FF0044;
 }
 
 .contacts .contacts__descrip span {

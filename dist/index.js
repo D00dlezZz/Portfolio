@@ -1,5 +1,4 @@
 const body          = document.body;
-const bgColorsBody  = ["#74ee15", "#f000ff", "#001eff"];
 const menu          = body.querySelector(".menu");
 const menuItems     = menu.querySelectorAll(".menu__item");
 const menuContent   = document.querySelector(".content").children;
@@ -76,7 +75,6 @@ function clickItem(item, index) {
         menuContent[i].style.display = "none";
     }
     menuContent[index].style.display = "block";
-    menuContent[index].style.color   = bgColorsBody[index];
 }
 
 function offsetMenuBorder(element, menuBorder) {
