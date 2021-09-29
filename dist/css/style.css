@@ -156,9 +156,7 @@ body::-webkit-scrollbar {
 }
 
 .about .about__descrip {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     font-size: 24px; 
     font-style: Rubik;
     color: white;
@@ -274,10 +272,12 @@ body::-webkit-scrollbar {
     }
 
     .about__sertificate img {
-
         margin: 0 auto;
         padding-bottom: 50px;
-        
+    }
+
+    .about .about__descrip {
+        text-align: left;
     }
 
     .myProject .myProject__link {
