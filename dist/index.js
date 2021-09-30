@@ -25,7 +25,7 @@ const projectsArr   = [
     },
     {
         name:           'Movie',
-        description:    'Учебное задание. '
+        description:    'Учебное задание. Командный проетк. '
     },
     {
         name:           'Piggy-bank',
