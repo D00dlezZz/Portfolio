@@ -16,6 +16,10 @@ const animArr = [
 let previousScreen  = 0;
 const projectsArr   = [
     {
+        name:           'Vinst-Beton',
+        description:    'Заказной проект для компании Ведис-групп'
+    },
+    {
         name:           'FTL',
         description:    'Тестовое задание от Точка-Точка Логистика. '
     },
